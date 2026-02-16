@@ -16,7 +16,7 @@ The first thing I check is the HTML source code for any hidden data.
 <img width="714" height="731" alt="02" src="https://github.com/user-attachments/assets/c6380dc3-8d53-4b11-9108-058a8acb9e82" />
 <br>
 <br>
-I don’t find anything there, so my next move is to check robots.txt. This is a simple text file located in the website’s root directory that tells search engine crawlers which pages or sections of the site they are allowed or not allowed to visit.
+I don’t find anything there, so my next move is to check `robots.txt`. This is a simple text file located in the website’s root directory that tells search engine crawlers which pages or sections of the site they are allowed or not allowed to visit.
 <br>
 <br>
 Here, we find our first clue.
@@ -34,13 +34,13 @@ We can see there is a disallowed directory and a comment that could be useful. I
 Again, I check the HTML source code but find nothing. The wording on this page “_but there's more to discover..._” suggests there is more content hidden elsewhere, usually in other directories on the site that are not directly accessible to users.
 <br>
 <br>
-I initially run an `nmap` scan, but it doesn’t work on my machine. Since we don’t need to perform a full network scan, `gobuster` is the next best step.
+I initially run an `nmap` scan, but it doesn’t work on my machine. Since we don’t need to perform a full network scan, we can use `gobuster` instead to scan for other directories.
 <br>
 <br>
 <img width="1428" height="1462" alt="05" src="https://github.com/user-attachments/assets/c9e07188-4413-4ed4-ab0d-974b576ce3a3" />
 <br>
 <br>
-For this, we can use `gobuster` (or DirBuster, whichever you prefer). It doesn’t inherently know what to look for; instead, it uses a wordlist to append words to the end of the target URL and brute-force the server for hidden directories. It then logs links that return valid HTTP responses.
+It doesn’t inherently know what to look for; it uses a wordlist to append words to the end of the target URL and brute-force the server for hidden directories. It then logs links that return valid HTTP responses.
 <br>
 <br>
 Command used:
