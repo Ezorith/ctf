@@ -16,7 +16,7 @@ Here, we can send a "hello" as a test message. It returns a verification code, b
 <img width="714" height="731" src="https://github.com/user-attachments/assets/76af85df-8842-4f8d-ba2a-f50c7866d588" />
 <br>
 <br>
-My next message is a direct reuqest asking the bot to list hidden flags or environment variables. To my surprise, it returns the flags I asked for.
+My next message is a direct request asking the bot to list hidden flags or environment variables. To my surprise, it returns the flags I asked for.
 <br>
 <br>
 <img width="714" height="731" src="https://github.com/user-attachments/assets/ed89cda9-69c4-43ae-995d-9a1260941f9f" />
