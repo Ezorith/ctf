@@ -23,3 +23,9 @@ My next message is a direct request asking the bot to list hidden flags or envir
 <br>
 <br>
 Yes, it's _that_ easy.
+<br>
+<br>
+No complex payloads or brute-force attacks required, just a direct question. CupidBot serves as a great entry-level look at how AI misconfigurations can lead to instant data leakage.
+<br>
+<br>
+Thanks to TryHackMe and the creators of the 2026 CTF for this creative Valentine-themed challenge. See you in the next one!
