@@ -31,7 +31,7 @@ We can see there's a disallow for one directory, and a comment which could be so
 <img width="1428" height="1462" alt="04" src="https://github.com/user-attachments/assets/d7bee0a2-2d02-43cb-af48-ad7445b8f3bc" />
 <br>
 <br>
-Again, I checked the HTML source page, but found none. The wording on this page "but there's more to discover..." suggests that there's more, usually other directories on the site that's hidden to the user. For this, we can use a tool called `gobuster` (or dirbuster, whichever you fancy). It's a tool that uses a wordlist that appends words at the end of the target URL. It doesn't actually know what to look for, instead it uses the wordlist to brute-force the server for hidden directories.
+Again, I checked the HTML source page, but found none. The wording on this page "_but there's more to discover..._" suggests that there's more, usually other directories on the site that's hidden from the user. For this, we can use a tool called `gobuster` (or dirbuster, whichever you fancy). It's a tool that uses a wordlist that appends words at the end of the target URL. It doesn't actually know what to look for, instead it uses the wordlist to brute-force the server for hidden directories.
 <br>
 <br>
 <img width="1428" height="1462" alt="05" src="https://github.com/user-attachments/assets/c9e07188-4413-4ed4-ab0d-974b576ce3a3" />
