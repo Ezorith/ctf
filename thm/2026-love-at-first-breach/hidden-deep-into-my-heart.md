@@ -34,7 +34,7 @@ We can see there is a disallowed directory and a comment that could be useful. I
 Again, I check the HTML source code but find nothing. The wording on this page “_but there's more to discover..._” suggests there is more content hidden elsewhere, usually in other directories on the site that are not directly accessible to users.
 <br>
 <br>
-I initially run an `nmap` scan, but it doesn’t work on my machine. Since we don’t need to perform a full network scan, we can use `gobuster` instead to scan for other directories.
+I started with `nmap`, but because this is a web app, a full network scan is overkill. We can use `gobuster` to scan for other directories instead.
 <br>
 <br>
 <img width="573" height="388" src="https://github.com/user-attachments/assets/23b1a3df-67f6-425a-bde1-2f311fa3795f" />
